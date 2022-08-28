@@ -5,3 +5,8 @@ p {
     font-style: italic;
 
 }
+img {
+    image-resolution: 10px;
+    border-image-width: auto;
+    border-image-width: 1px;
+}
