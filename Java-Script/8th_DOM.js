@@ -46,7 +46,15 @@ console.log(heading.previousElementSibling); */
 
 
 // #### MAnipulation 
-const heading = document.querySelector('.heading');
+/* const heading = document.querySelector('.heading');
 heading.innerHTML = 'Web dev is awesome';
 heading.style.color = 'red';
-heading.style.fontSize = '100px';
+heading.style.fontSize = '100px'; */
+
+// ##### DOM eventListner : 
+const button = document.querySelector('#btn');
+const heading = document.querySelector('#heading');
+button.addEventListener('click', function(){
+    console.log('button clicked');
+
+});
