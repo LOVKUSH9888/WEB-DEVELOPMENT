@@ -54,7 +54,9 @@ heading.style.fontSize = '100px'; */
 // ##### DOM eventListner : 
 const button = document.querySelector('#btn');
 const heading = document.querySelector('#heading');
-button.addEventListener('click', function(){
+button.addEventListener('click', function(event){
+    heading.style.color = 'red';
+    heading.style.fontSize = '30px';
     console.log('button clicked');
 
 });
