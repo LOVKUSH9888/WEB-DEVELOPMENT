@@ -1,4 +1,4 @@
- let arr = new Array();
+ /*let arr = new Array();
 let arr = []; */
 
 let fruits = ["Apple", "Mango", "grapes"];
