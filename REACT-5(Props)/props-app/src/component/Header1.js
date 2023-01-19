@@ -9,8 +9,16 @@ function Header1 (props){
     return(
         <div>
         <h1>Hello World</h1>
+
         {/*Props used here*/}
         <h1>Hello {props.name}</h1> 
+
+        {/*Level up */}
+        <h1>Hello {props.name} + {props.last}</h1> 
+
+        {/*Accessing that Child p here now*/}
+        {props.child}
+
         </div>
     );
 }
