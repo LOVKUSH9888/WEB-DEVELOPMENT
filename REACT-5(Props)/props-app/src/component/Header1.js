@@ -19,6 +19,11 @@ function Header1 (props){
         {/*Accessing that Child p here now*/}
         {props.child}
 
+
+
+        {/*Accessing that Child p here now*/}
+        {props}
+
         </div>
     );
 }

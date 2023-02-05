@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header1 from './component/Header1'
+import CHeader from './component/CHeader'
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
     
     {/*Creating a Child P here*/}
     <p>Lovkush is a noob coder for now</p>
+
+    {/*Creating  a class component*/}
+    <CHeader name= "pop" last ="dom" />
     </div>
   );
 }
