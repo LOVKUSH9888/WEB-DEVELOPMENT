@@ -1,0 +1,17 @@
+   
+* {
+    text-align: center;
+    color: blue;
+    font: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+
+  h1 {
+    color: red;
+  }
+
+  p {
+    color: purple;
+  }
