@@ -1,20 +1,10 @@
-   
+ 
 * {
-    text-align: center;
-    color: blue;
-    font: 100vh;
-    font-family: 'Courier New', Courier, monospace;
-
+  /*Universal Selector*/
   }
 
-
-  h1 {
-    color: red;
-  }
-
-  p {
-    color: purple;
-  }
-
-
-//Prepaering CSS
+.kiya {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
