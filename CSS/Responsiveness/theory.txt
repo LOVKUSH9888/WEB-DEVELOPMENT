@@ -5,3 +5,19 @@ vw/vh = viewport width-height = we are giving the size according to the screen
 vmax/vmin = viewport max/min = we can give any max and min 
 /////////////////////////////////////////////////////////////////
 em/rem = Relative to the font-size of the element (2em means 2 times the size of the current font)
+1em = 16px 
+
+
+#layout : = absoutute VS flex
+dont use - Absolute = use Display flex
+
+
+#Flexbox ; 
+
+.container {
+  display: flex; /* Container becomes a flex container */
+  flex-direction: row; /* Items arranged in a row */
+  justify-content: space-between; / center /* Items spread out along the main axis */
+  align-items: center; /* Items centered vertically */
+  flex-wrap : wrap;
+}

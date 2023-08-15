@@ -1,0 +1,7 @@
+.container{
+    display: flex; /* Container becomes a flex container */
+    flex-direction: row; /* Items arranged in a row */
+    justify-content: space-between; /* Items spread out along the main axis */
+    align-items: center; /* Items centered vertically */
+    flex-wrap: wrap;
+  }

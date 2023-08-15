@@ -1,0 +1,49 @@
+/*.class
+#id*/
+
+/*Flexbox: Flexbox is a layout model that provides a flexible way to arrange elements within a container. 
+It's great for building responsive layouts.*/
+
+.container {
+    display: flex; /* Container becomes a flex container */
+    flex-direction: row; /* Items arranged in a row */
+    justify-content: space-between; /* Items spread out along the main axis */
+    align-items: center; /* Items centered vertically */
+    flex-wrap: wrap;
+  }
+  
+
+  /* CSS Grid:
+CSS Grid is another layout model that allows you to create complex layouts with rows and columns. 
+It's powerful for responsive design.*/
+
+.container {
+    display: grid; /* Container becomes a grid container */
+    grid-template-columns: 1fr 2fr; /* Two columns with flexible width ratio */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+/* Flexible Images:
+To prevent images from overflowing or becoming too small on smaller screens, use the max-width: 100% property.*/
+
+img {
+    max-width: 100%; /* Image won't exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+
+
+  /*CSS media quieries = Changing vehavior of your CSS according to screen.
+  Media queries allow you to apply different styles based on the device's screen size. 
+  They're the foundation of responsive design.
+  */
+  
+/* Applying styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  /* CSS rules for smaller screens */
+}
+
+/* Applying styles for screens between 601px and 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* CSS rules for medium-sized screens */
+}
