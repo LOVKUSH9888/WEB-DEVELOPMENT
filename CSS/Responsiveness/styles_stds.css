@@ -32,8 +32,7 @@ img {
   }
   
 
-
-  /*CSS media quieries = Changing vehavior of your CSS according to screen.
+/*CSS media quieries = Changing vehavior of your CSS according to screen.
   Media queries allow you to apply different styles based on the device's screen size. 
   They're the foundation of responsive design.
   */
@@ -41,6 +40,14 @@ img {
 /* Applying styles for screens smaller than 600px */
 @media (max-width: 600px) {
   /* CSS rules for smaller screens */
+}
+
+//Example:
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
 
 /* Applying styles for screens between 601px and 1024px */
