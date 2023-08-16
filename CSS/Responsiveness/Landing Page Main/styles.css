@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+  }
+  
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: relative; /*We give this in Parent*/
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    /*background-color: red;*/
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+
+.nav-part2{
+    display: flex;
+    /*background-color: blue;*/
+    gap: 4vw;
+    align-items: center;
+}
+
+.nav h2 {
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+
+
+.nav h4{
+    font-size: 1.2vw;
+}
+
+.nav button{
+    font-size: 1vw;
+    padding: 0.7vw 1.4vw;
+    background-color: lightseagreen;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+.nav i{
+    font-weight: 800;
+    display: none;
+}
+
+.content {
+    height: calc(100% -100px);
+    width: 100%;
+    /*background-color: skyblue;*/
+    position: relative;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 55%;
+    /*background-color: lightcoral;*/
+    padding: 100px 4vw; /* 100px - uper neeche se, 8vw = left right se*/
+}
+
+
+.left h1{
+    font-size: 4.2vw;
+    line-height: 4.4vw;
+}
+
+.left h1 span {
+    color: lightseagreen;
+}
+
+.left p {
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+}
+
+.content button{
+    font-size: 1.5vw;
+    padding: 1.3vw 2.3vw;
+    background-color: lightseagreen;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+.right {
+    height: 100%;
+    width: 45%;
+    /*background-color: green;*/
+
+}
+
+.right img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/*Media Queries"*/
+@media (max-width: 600px) {
+    .nav{
+        background-color: lightseagreen;
+        color: #fff;
+        padding: 0 5vw;
+        height: 60px;
+    }
+    .nav h2 {
+        font-size: 6vw;
+    }
+    .nav h4 {
+        font-size: 4vw;
+        display: none;
+    }
+    .nav i {
+        display: block;
+        font-weight: 800;
+    }
+}
