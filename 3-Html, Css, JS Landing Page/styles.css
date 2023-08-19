@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #333;;
+
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+  }
+  
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: relative; /*We give this in Parent*/
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    /*background-color: red;*/
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4vw;
+}
+
+.nav-part2{
+    display: flex;
+    /*background-color: blue;*/
+    gap: 4vw;
+    align-items: center;
+}
+
+.nav i{
+    display: none;
+}
+
+
+
+@media (max-width: 600px) {
+    .nav{
+        background-color: rgb(197, 151, 239);
+    }
+    .nav h4 {
+        display: none
+    }
+    .nav i {
+        display: block
+    }
+}
